@@ -1,0 +1,20 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Samuel Frederick",
+    "email": "samfred@amazon.com"
+  },
+  "license": "MIT-0",
+  "dependencies": {
+    "@aws-sdk/client-connect": "^3.454.0",
+    "@aws-sdk/client-dynamodb": "^3.454.0",
+    "@aws-sdk/lib-dynamodb": "^3.454.0",
+    "@types/aws-lambda": "^8.10.126",
+    "aws-lambda": "^1.0.7"
+  }
+}

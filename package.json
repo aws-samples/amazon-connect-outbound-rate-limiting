@@ -1,0 +1,43 @@
+{
+  "name": "connect-outbound-rate-limiting",
+  "version": "1.0.0",
+  "description": "A CDK project that implements an Amazon Connect Outbound Rate Limiting pattern",
+  "keywords": [
+    "amazon connect",
+    "aws",
+    "cdk",
+    "rate limiting"
+  ],
+  "author": {
+    "name": "Samuel Frederick",
+    "email": "samfred@amazon.com"
+  },
+  "homepage": "https://github.com/aws-samples/amazon-connect-outbound-rate-limiting",
+  "bugs": {
+    "bugs": {
+      "url": "https://github.com/aws-samples/amazon-connect-outbound-rate-limiting/issues"
+    }
+  },
+  "license": "MIT-0",
+  "bin": {
+    "connect-outbound-rate-limiting": "bin/connect-outbound-rate-limiting.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "postinstall": "cd lib/rate-limiter && npm install"
+  },
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "aws-cdk": "2.110.0",
+    "ts-node": "^10.9.1",
+    "typescript": "~5.2.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.110.0",
+    "constructs": "^10.0.0",
+    "esbuild": "^0.19.7",
+    "source-map-support": "^0.5.21"
+  }
+}
